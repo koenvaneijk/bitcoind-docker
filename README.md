@@ -7,3 +7,7 @@ docker build -t bitcoind-docker .
 ``` 
 docker run -it -v %cd%/.bitcoin:/root/.bitcoin bitcoind-docker 
 ``` 
+
+# To do
+- Replace Ubuntu 20.04 base image with slimmer image for better resource efficiency
+- Add JSON-RPC configuration (username, password, port)
