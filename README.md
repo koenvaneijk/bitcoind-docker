@@ -5,7 +5,7 @@ docker build -t bitcoind-docker .
 ``` 
 ## Run (Windows)
 ``` 
-docker run -it -v %cd%/.bitcoin:/root/.bitcoin bitcoind-docker 
+docker run -d -v %cd%/.bitcoin:/root/.bitcoin bitcoind-docker 
 ``` 
 
 # To do
