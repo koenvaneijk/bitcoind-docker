@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 # Bitcoin Core version should be set to the latest available version
-ARG BITCOIN_CORE_VERSION=0.21.1
+ARG BITCOIN_CORE_VERSION=22.0
 
 # Install required packages from APT
 RUN apt-get update
