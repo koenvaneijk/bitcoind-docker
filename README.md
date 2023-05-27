@@ -6,7 +6,7 @@ cd bitcoind-docker
 docker build -t bitcoind-docker .
 ``` 
 ## Run
-### Linux or Windows PowerShell
+### Linux/Powershell/MacOS
 Without RPC:
 ```bash
 docker run -d -v ${pwd}/.bitcoin:/root/.bitcoin bitcoind-docker
